@@ -1,0 +1,185 @@
+.megacom{
+    position: relative;
+    display: flex;
+    width: 1055px;
+    height: 700px;
+    background: #1A5B35;
+    margin: 0 auto ;
+}
+
+.img-left1{
+    position: absolute;
+    top: 24px;
+
+}
+
+.img-right1{
+    position: absolute;
+    left: 955px;
+}
+
+.friends{
+    font-family: 'Comfortaa', cursive;
+    width: 230px;
+    position: absolute;
+    display: inline-block;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    left: 435px;
+    top: 205px;
+    color: #D6BD84;
+}
+.mobile-pictures{
+    display: none;
+}
+
+.greetings{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    text-align: center ;
+    margin: 250px 70px 100px;
+    color: #FFFFFF;
+    width: 900px;
+    height: 440px;
+}
+
+.img-center{
+    position: absolute;
+    left: 590px;
+    top: 488px;
+}
+
+.logo{
+    position: absolute;
+    left: 485px;
+    top: 610px;
+}
+
+
+
+.img-left-bottom1{
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    top: 634px;
+
+}
+.img-left-bottom2{
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    top: 590px;
+    left: 15px;
+}
+.img-left-bottom3{
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    top: 601px;
+    left: 27px;
+}
+
+
+@media (max-width: 576px) {
+
+    body{
+        box-sizing: border-box;
+    }
+    .megacom {
+        position: relative;
+        display:block ;
+        width: 360px;
+        height: 745px;
+        margin:0 auto ;
+        background: #1A5B35;
+
+    }
+
+    .friends{
+        font-family: 'Comfortaa', cursive;
+        width: 170px;
+        position: absolute;
+        display:inline-block;
+        text-align: center;
+        justify-content: center ;
+        color: #D6BD84;
+        margin-top:-92px  ;
+        margin-left: -334px  ;
+
+    }
+
+
+    .greetings{
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        display: inline-block;
+        position: absolute;
+        font-size: 15px;
+        width: 350px ;
+        color: #FFFFFF;
+        margin-top:150px  ;
+        margin-left: 4px  ;
+
+
+    }
+
+    .img-center{
+        display: inline-block ;
+        position: absolute;
+        left: 70.57%;
+        top: 77.4%;
+
+    }
+
+    .logo{
+        position: absolute;
+        left: 141px;
+        top: 680px;
+    }
+
+
+
+    .img-left-bottom2 {
+        display: inline-block ;
+        position: absolute;
+        left: 81%;
+        top: 11%;
+    }
+
+    .img-left-bottom3{
+        display: inline-block ;
+        position: absolute;
+        left: 84%;
+        top: 12%;
+    }
+
+    .img-right1, .img-left-bottom1 {
+        display: none;
+    }
+}
+
+
+@media print {
+    .megacom{
+        background-color: transparent ;
+
+
+    }
+
+    .pictures {
+        display: none;
+    }
+    p {
+        color: black ;
+        font-size: 19px ;
+
+    }
+}
+
+
+
+
